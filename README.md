@@ -56,6 +56,6 @@ To ensure high accuracy, the model was trained on thousands of images focusing o
 
 ## 👤 Developer
 **MD Nasim Howladar**  
-*B.Sc. in Computer Science & Engineering, Jahangirnagar University*  
+*B.Sc. in Computer Science & Engineering, Atish Dipankar University of Science & Technology 
 **Software Engineer | ML Enthusiast**
 
