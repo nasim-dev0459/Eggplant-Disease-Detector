@@ -1,0 +1,32 @@
+name: eggplant_app
+description: "A new Flutter project for Eggplant Disease Detection."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  image_picker: ^1.1.2
+
+  # Updated to fix the 'UnmodifiableUint8ListView' error
+  tflite_flutter: ^0.12.1
+
+  # Image processing library for model input
+  image: ^4.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Asset registration for model and labels
+  assets:
+    - assets/eggplant_disease_model.tflite
+    - assets/labels.txt
