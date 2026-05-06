@@ -23,10 +23,10 @@ The application provides a seamless experience from image capture to disease dia
 To ensure high accuracy, the model was trained on thousands of images focusing on common eggplant pathologies. Due to GitHub's file size limitations, the datasets are hosted on **Kaggle**.
 
 ### External Dataset Links:
-*   🟢 **Healthy Leaves:** [Access on Kaggle](https://www.kaggle.com/datasets/nasim-dev0459/healthy-datasheet)
-*   🔴 **Cercospora Melongenae:** [Access on Kaggle](https://www.kaggle.com/datasets/nasim-dev0459/cercospora-melongenae-disease-of-eggplant)
-*   🟣 **Leucinodes Orbonalis:** [Access on Kaggle](https://www.kaggle.com/datasets/nasim-dev0459/leucinodes-orbonalis-disease-of-eggplant)
-*   🟠 **Phomopsis Blight:** [Access on Kaggle](https://www.kaggle.com/datasets/nasim-dev0459/phomopsis-blight-disease-of-eggplant)
+*   🟢 **Healthy Leaves:** [Access on Kaggle](https://www.kaggle.com/datasets/mdnasimhawlader/healthy-datasheet)
+*   🔴 **Cercospora Melongenae:** [Access on Kaggle](https://www.kaggle.com/datasets/mdnasimhawlader/cercospora-melongenae-disease-of-eggplant)
+*   🟣 **Leucinodes Orbonalis:** [Access on Kaggle](https://www.kaggle.com/datasets/mdnasimhawlader/leucinodes-orbonalis-disease-of-eggplant)
+*   🟠 **Phomopsis Blight:** [Access on Kaggle](https://www.kaggle.com/datasets/mdnasimhawlader/phomopsis-blight-of-eggplant)
 
 ---
 
