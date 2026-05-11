@@ -155,10 +155,18 @@ Eggplant-Disease-Detector/
 
 # 🎥 Project Demonstration
 
+# 🎥 Project Demonstration
+
 ## ▶️ Demo Video
 
 <p align="center">
-  <video src="App_Summary/Demo.mp4" controls width="850"></video>
+  <a href="App_Summary/Demo.mp4">
+    <img src="App_Summary/App Interface.jpeg" width="850">
+  </a>
+</p>
+
+<p align="center">
+  🔗 Click the image above to watch the demo video
 </p>
 
 ---
