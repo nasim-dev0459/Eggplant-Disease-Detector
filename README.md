@@ -160,7 +160,7 @@ Eggplant-Disease-Detector/
 ## ▶️ Demo Video
 
 <p align="center">
-  <a href="App_Summary/Demo.mp4">
+  <a href="Demo.mp4">
     <img src="App_Summary/App Interface.jpeg" width="850">
   </a>
 </p>
