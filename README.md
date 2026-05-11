@@ -1,176 +1,137 @@
 # 🍆 Eggplant Disease Detector using Deep Learning & Flutter
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Flutter-Mobile%20App-blue?style=for-the-badge&logo=flutter" />
-  <img src="https://img.shields.io/badge/Python-3.11+-yellow?style=for-the-badge&logo=python" />
-  <img src="https://img.shields.io/badge/TensorFlow-Deep%20Learning-orange?style=for-the-badge&logo=tensorflow" />
-  <img src="https://img.shields.io/badge/TFLite-Mobile%20Inference-green?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Status-Completed-success?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Flutter-Mobile%20App-02569B?style=for-the-badge&logo=flutter&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Python-Deep%20Learning-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/TensorFlow-CNN%20Model-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white"/>
+  <img src="https://img.shields.io/badge/TFLite-Mobile%20Inference-7B1FA2?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Status-Completed-success?style=for-the-badge"/>
 </p>
 
 ---
 
 # 📌 Project Overview
 
-The **Eggplant Disease Detector** is an AI-powered mobile application developed to identify and classify common eggplant diseases using **Deep Learning**, **Computer Vision**, and **Mobile AI Deployment** technologies.
+The **Eggplant Disease Detector** is an AI-powered smart agriculture application developed using **Deep Learning**, **Computer Vision**, and **Flutter Mobile Development** technologies.
 
-This project combines:
+This system is designed to automatically detect and classify diseases in eggplant leaves using image-based analysis. Farmers or users can simply upload or capture a leaf image through the mobile application, and the AI model instantly predicts the disease type.
 
-* 📱 A modern Flutter mobile application
-* 🧠 CNN-based Deep Learning model
-* ⚡ TensorFlow Lite (TFLite) on-device inference
-* 🌿 Smart agriculture disease diagnosis
+The project combines:
 
-The application allows users to capture or upload eggplant leaf images and instantly receive disease predictions directly on their mobile device.
+* 📱 Cross-platform Flutter Mobile Application
+* 🧠 CNN-Based Deep Learning Model
+* ⚡ TensorFlow Lite Mobile Inference
+* 🌱 Smart Agriculture Technology
 
-This project demonstrates practical implementation of Artificial Intelligence in:
-
-* Smart Agriculture
-* Precision Farming
-* Mobile AI Systems
-* Real-Time Disease Classification
+This project demonstrates practical applications of Artificial Intelligence in modern agriculture and precision farming systems.
 
 ---
 
 # 🎯 Objectives
 
-* Detect eggplant diseases automatically from leaf images
+* Detect eggplant diseases automatically from images
 * Assist farmers with early disease identification
-* Build an offline AI-powered mobile application
-* Apply Deep Learning to real-world agricultural problems
-* Develop a scalable and portable smart farming solution
+* Reduce crop damage and production loss
+* Develop a portable AI-powered mobile solution
+* Apply Deep Learning in real-world agricultural systems
 
 ---
 
 # ✨ Key Features
 
-## 📷 AI-Based Disease Detection
+## 🧠 AI-Based Disease Detection
 
-The application detects:
-
-* 🟢 Healthy Leaves
-* 🔴 Cercospora Melongenae
-* 🟣 Leucinodes Orbonalis
-* 🟠 Phomopsis Blight
+* Uses Convolutional Neural Networks (CNN)
+* Image classification using Deep Learning
+* Optimized for mobile inference with TensorFlow Lite
 
 ---
 
-## 📱 Flutter Mobile Application
+## 📷 Real-Time Image Prediction
 
-* Cross-platform support
-* Clean and modern user interface
-* Android & iOS compatibility
-
----
-
-## ⚡ Real-Time Prediction
-
-* Instant image classification
-* Fast on-device inference
-* Smooth mobile experience
+* Capture image directly from mobile camera
+* Upload leaf images from gallery
+* Instant disease prediction
 
 ---
 
-## 🌐 Offline Functionality
+## 📱 Cross-Platform Mobile Application
 
-* Works without internet connection
-* TensorFlow Lite model deployed directly on device
+Built using Flutter for:
+
+* Android
+* iOS
+* Cross-platform compatibility
 
 ---
 
-## 🧠 Deep Learning Powered
+## ⚡ Offline Prediction Support
 
-* CNN-based image classification model
-* Trained using TensorFlow & Keras
-* Optimized for mobile deployment
+* Runs directly on-device using TFLite
+* No internet required for disease detection
+
+---
+
+## 🌿 Multi-Class Disease Classification
+
+Detects:
+
+* Healthy Eggplant Leaves
+* Cercospora Melongenae
+* Leucinodes Orbonalis
+* Phomopsis Blight
+
+---
+
+## 🎨 User-Friendly Interface
+
+* Clean modern UI
+* Easy navigation
+* Fast response system
 
 ---
 
 # 🛠️ Technologies Used
 
-| Technology      | Purpose                        |
-| --------------- | ------------------------------ |
-| Flutter         | Mobile Application Development |
-| Dart            | Flutter Programming            |
-| Python          | Model Development              |
-| TensorFlow      | Deep Learning                  |
-| Keras           | CNN Model Training             |
-| TensorFlow Lite | Mobile AI Inference            |
-| NumPy           | Numerical Processing           |
-| OpenCV          | Image Processing               |
-| Git & GitHub    | Version Control                |
+| Technology      | Purpose                |
+| --------------- | ---------------------- |
+| Flutter         | Mobile App Development |
+| Dart            | Frontend Programming   |
+| Python          | AI Model Development   |
+| TensorFlow      | Deep Learning          |
+| Keras           | CNN Model Training     |
+| TensorFlow Lite | Mobile AI Inference    |
+| NumPy           | Numerical Processing   |
+| Kaggle          | Dataset Hosting        |
+| Git & GitHub    | Version Control        |
 
 ---
 
-# 📂 Project Structure
+# 📱 Application Preview
 
-```bash
-Eggplant-Disease-Detector/
-│
-├── lib/                         # Flutter Application Source Code
-├── assets/                      # App Assets & Labels
-├── android/                     # Android Configuration
-├── ios/                         # iOS Configuration
-├── linux/                       # Linux Support
-│
-├── model_training/              # CNN Model Training Notebooks
-│
-├── App_Summary/
-│   ├── App Interface.jpeg
-│   ├── Disease Ditector.jpeg
-│   ├── Result.jpeg
-│   └── Demo.mp4
-│
-├── README.md
-└── pubspec.yaml
-```
+## 📸 App Interface
+
+| Home Screen                           | Disease Detection                        | Prediction Result            |
+| ------------------------------------- | ---------------------------------------- | ---------------------------- |
+| ![](App_Summary/App%20Interface.jpeg) | ![](App_Summary/Disease%20Ditector.jpeg) | ![](App_Summary/Result.jpeg) |
 
 ---
 
-# 📸 Application Preview
-
-## 🖥️ Dashboard Interface
-
-<p align="center">
-  <img src="App_Summary/App Interface.jpeg" width="850"/>
-</p>
-
----
-
-## 🔍 Disease Detection
-
-<p align="center">
-  <img src="App_Summary/Disease Ditector.jpeg" width="850"/>
-</p>
-
----
-
-## 📊 Prediction Result
-
-<p align="center">
-  <img src="App_Summary/Result.jpeg" width="850"/>
-</p>
-
----
-
-# 🎥 Project Demonstration
-
-# 🎥 Project Demonstration
-
-# 🎥 Project Demonstration
+# 🎥 Project Demonstration Video
 
 ## ▶️ Demo Video
 
-[![Watch the Demo](App_Summary/App%20Interface.jpeg)](https://youtu.be/YOUR_VIDEO_LINK)
 <p align="center">
-  🔗 Click the image above to watch the demo video
+  <a href="App_Summary/Demo.mp4">
+    <img src="https://img.shields.io/badge/Watch-Demo%20Video-red?style=for-the-badge&logo=youtube"/>
+  </a>
 </p>
 
 ---
 
 # 📊 Dataset Information
 
-The model was trained using publicly available agricultural datasets hosted on Kaggle.
+The datasets used for training are publicly available on Kaggle.
 
 ## 🔗 Dataset Links
 
@@ -212,6 +173,33 @@ Flutter App Integration
 
 ---
 
+# 📂 Project Structure
+
+```bash
+Eggplant-Disease-Detector/
+│
+├── android/
+├── ios/
+├── linux/
+├── lib/                         # Flutter Application Source Code
+├── assets/                      # Images, Labels & Model Files
+│
+├── model_training/              # CNN Training Notebooks
+│
+├── App_Summary/
+│   ├── App Interface.jpeg
+│   ├── Disease Ditector.jpeg
+│   ├── Result.jpeg
+│   └── Demo.mp4
+│
+├── pubspec.yaml
+├── README.md
+│
+└── tflite_model/
+```
+
+---
+
 # 🚀 Installation Guide
 
 ## 1️⃣ Clone Repository
@@ -248,33 +236,33 @@ flutter run
 
 # 📈 Future Improvements
 
-* 🌐 Cloud Database Integration
-* 🤖 Advanced Transfer Learning Models
-* 📊 Disease Analytics Dashboard
 * 🌍 Multi-Crop Disease Detection
-* 🔔 Farmer Notification System
-* 📱 Play Store Deployment
+* ☁️ Cloud Database Integration
+* 📊 Disease Analytics Dashboard
+* 🤖 Advanced Transfer Learning Models
+* 🌐 Web Version Development
+* 🔔 Farmer Alert & Recommendation System
 
 ---
 
 # 🎓 Academic & Research Value
 
-This project demonstrates practical experience in:
+This project demonstrates practical knowledge in:
 
 * Deep Learning
-* Mobile AI Deployment
-* TensorFlow Lite Optimization
-* Flutter Development
 * Computer Vision
+* Mobile AI Deployment
+* TensorFlow Lite
+* Cross-Platform Development
 * Smart Agriculture Systems
 
-This project is highly suitable for:
+Suitable for:
 
+* Final Year Projects
+* AI/ML Research Portfolios
 * Internship Applications
 * Scholarship Applications
-* AI/ML Portfolio Showcase
-* Final Year Projects
-* Research Demonstrations
+* Software Engineering Portfolios
 
 ---
 
@@ -284,10 +272,10 @@ Through this project, I gained experience in:
 
 * CNN Architecture Design
 * TensorFlow & Keras
-* Mobile AI Integration
-* Flutter App Development
+* Mobile AI Deployment
+* Flutter Application Development
+* TensorFlow Lite Optimization
 * Image Classification Systems
-* Real-Time AI Inference
 
 ---
 
@@ -310,7 +298,7 @@ This project is developed for:
 
 * Educational Purposes
 * Research
-* Portfolio Showcase
+* AI Portfolio Showcase
 
 ---
 
@@ -323,15 +311,15 @@ B.Sc. in Computer Engineering
 ### Interests
 
 * Artificial Intelligence
+* Machine Learning
 * Deep Learning
 * Mobile App Development
 * Computer Vision
-* Smart Agriculture
-* Machine Learning
+* Smart Agriculture Systems
 
 ---
 
 # ⭐ Support
 
 If you found this project useful, please give it a ⭐ on GitHub.
-Your support motivates future AI and research projects 🚀
+Your support inspires future AI and research projects 🚀
